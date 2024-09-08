@@ -7,11 +7,10 @@
   - AdaLoRA (AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning)
   - Prefix tuning
 
- ## AdaLoRA Configuration
+## Performance Metrics - Validation Matched Split
 
-### Performance Metrics
+ ### AdaLoRA Configuration
 
-#### Validation Matched Split
 | Metric      | Untrained | Trained | Difference |
 |-------------|-----------|---------|------------|
 | Accuracy    | 0.3442    | 0.6354  | +0.2912    |
@@ -20,9 +19,7 @@
 | F1          | 0.2434    | 0.6346  | +0.3912    |
 
 
-## Prefix Tuning Configuration
-
-#### Validation Matched Split
+### Prefix Tuning Configuration
 
 | Metric      | Untrained | Trained | Difference |
 |-------------|-----------|---------|------------|
