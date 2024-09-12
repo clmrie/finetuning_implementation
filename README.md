@@ -6,6 +6,7 @@
   Experienced with finetuning methods:
   - AdaLoRA (AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning)
   - Prefix tuning
+  - Warmup with cosine scheduler
 
 ## Performance Metrics - Validation Matched Split
 
