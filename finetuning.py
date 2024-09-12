@@ -126,13 +126,14 @@ class Finetuning:
             num_train_epochs=num_epochs,
             weight_decay=0.01,
             evaluation_strategy="epoch",
-            save_strategy="steps",
+            save_strategy="steps", 
             save_steps=500,  
             save_total_limit=3,  
             metric_for_best_model="accuracy",
             warmup_ratio=0.1,
             logging_steps=100,
             gradient_accumulation_steps=2,
+            lr_scheduler_type="cosine_with_restarts",
         )
 
         trainer = Trainer(
