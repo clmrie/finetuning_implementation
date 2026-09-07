@@ -28,3 +28,8 @@
 | Precision   | 0.2795    | 0.7041  | +0.4246    |
 | Recall      | 0.3055    | 0.7026  | +0.3971    |
 | F1          | 0.1536    | 0.7032  | +0.5495    |
+
+
+## Personal website
+
+Check out [Clement Marie’s personal website](https://clmrie.github.io/) for my research, projects, and CV.
